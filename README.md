@@ -1,60 +1,100 @@
-# Unit Converter in PHP
+# 🔐 Secure Password Generator
 
-## 📌 Description
+A **secure password generator** built with **PHP**. This tool allows users to create strong, random passwords with customizable options, ensuring enhanced security for online accounts and sensitive data.
 
-This is a simple **Unit Converter** built with PHP that allows converting between different measurement units:
+## 🚀 Features
 
-- **Distance**: Kilometers ↔ Miles
-- **Temperature**: Celsius ↔ Fahrenheit
-- **Weight**: Kilograms ↔ Pounds
-
-It provides a user-friendly interface where users can enter a value, select a conversion type, and instantly see the result.
-
-## 🚀 Live Demo
-To run this project locally, follow the instructions below.
-
-## 🛠 Requirements
-- A local PHP server (XAMPP, WAMP, LAMP, or similar)
-- A web browser (Google Chrome, Firefox, etc.)
-
-## 📥 Installation
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/salvador-castro/conversorMonedasPHP.git
-   ```
-2. Move the files to your local PHP server (e.g., `htdocs` for XAMPP).
-3. Start Apache from your server control panel.
-4. Open a web browser and navigate to:
-   ```
-   http://localhost/index.php
-   ```
-5. Enter a value, select a conversion type, and click "Convert" to see the result.
-
-## 📌 Usage
-
-### Supported Conversions:
-| Input  | Output |
-|--------|--------|
-| Kilometers → Miles | Miles → Kilometers |
-| Celsius → Fahrenheit | Fahrenheit → Celsius |
-| Kilograms → Pounds | Pounds → Kilograms |
-
-### Example:
-- **Input:** `10 km`
-- **Conversion:** `Kilometers to Miles`
-- **Output:** `6.21371 miles`
-
-## 🖥️ Code Structure
-- `index.php`: The main file containing the conversion logic and frontend.
-- `style.css`: (if needed) Custom styling for better UI design.
-
-## 📜 License
-This project is open-source and available under the MIT License.
-
-## 👨‍💻 Author
-Developed by [Salvador Castro](https://ar.linkedin.com/in/salvador-castro95).  
-For more projects, visit my GitHub: [@salvador-castro](https://github.com/salvador-castro).
+✅ **Random Password Generation** – Creates highly secure passwords with a mix of characters.  
+✅ **Customizable Settings** – Choose length, uppercase/lowercase letters, numbers, and symbols.  
+✅ **User-Friendly Implementation** – Simple and efficient PHP script.  
+✅ **Fast & Lightweight** – Generates passwords instantly with minimal resource usage.  
+✅ **No External Dependencies** – Works with native PHP functions, no additional libraries required.  
 
 ---
 
-🔥 **Enjoy your unit conversions!** 🚀
+## 📥 Installation
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository:**
+   
+   ```bash
+   git clone https://github.com/salvador-castro/passwordGeneratorPHP.git
+   cd passwordGeneratorPHP
+   ```
+
+2. **Run the script:**
+   
+   Ensure you have PHP installed, then execute the script:
+   
+   ```bash
+   php password_generator.php
+   ```
+
+---
+
+## 🛠️ Usage
+
+Modify the function parameters to customize password settings:
+
+```php
+// Generate a password with 16 characters, including all character types.
+echo generarContrasena(16, true, true, true, true);
+```
+
+### Custom Options:
+- Change the **length** of the password (default: 12 characters).
+- Enable or disable **uppercase letters**.
+- Enable or disable **lowercase letters**.
+- Enable or disable **numbers**.
+- Enable or disable **special symbols**.
+
+Example Output:
+
+```
+Generated Password: G7@d5k!XpQ9#
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are **welcome**! To contribute:
+
+1. **Fork the repository**.
+2. **Create a new branch:**
+   
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. **Commit your changes:**
+   
+   ```bash
+   git commit -m "Added new feature"
+   ```
+
+4. **Push to the branch:**
+   
+   ```bash
+   git push origin feature-name
+   ```
+
+5. **Submit a Pull Request.**
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** – feel free to use and modify it as needed.
+
+---
+
+## 📬 Contact
+
+For any questions, suggestions, or collaboration opportunities, reach out via:
+
+🔗 **GitHub:** [Salvador Castro](https://github.com/salvador-castro/passwordGeneratorPHP)  
+💼 **LinkedIn:** [Salvador Castro](https://ar.linkedin.com/in/salvador-castro95)  
+
+🚀 Happy Coding! 💻🔒
