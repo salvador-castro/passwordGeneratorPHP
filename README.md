@@ -94,7 +94,7 @@ This project is licensed under the **MIT License** – feel free to use and modi
 
 For any questions, suggestions, or collaboration opportunities, reach out via:
 
-🔗 **GitHub:** [Salvador Castro](https://github.com/salvador-castro/passwordGeneratorPHP)  
+🔗 **GitHub:** [Salva Castro](https://github.com/salvador-castro/passwordGeneratorPHP)  
 💼 **LinkedIn:** [Salvador Castro](https://ar.linkedin.com/in/salvador-castro95)  
 
 🚀 Happy Coding! 💻🔒

@@ -12,7 +12,6 @@
         button:hover { background: #0056b3; }
     </style>
 </head>
-
 <body>
 
     <h2>Conversor de Unidades</h2>
@@ -28,7 +27,6 @@
         </select>
         <button type="submit">Convertir</button>
     </form>
-
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $valor = floatval($_POST["valor"]);
